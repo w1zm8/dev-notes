@@ -6,9 +6,11 @@
 
 ## Structure
 
-- common
+- Common
 - - [Introduction to React library (old)](introduction-to-react-old/)
-- redux
+- Redux
 - - [Introduction to Redux (old)](redux/introduction-to-redux-old/)
-- testing
+- Testing
 - - [React TDD](react-tdd/README.md)
+- React Router
+- - [React Router](react-router/README.md)
