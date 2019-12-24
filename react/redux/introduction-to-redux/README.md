@@ -1,4 +1,4 @@
-## Introduction to Redux (old)
+## Introduction to Redux (outdated)
 
 > Redux - A predictable state container for JavaScript apps.
 

@@ -7,9 +7,9 @@
 ## Structure
 
 - Common
-- - [Introduction to React library (old)](introduction-to-react-old/)
+- - [Introduction to React library (outdated)](introduction-to-react/)
 - Redux
-- - [Introduction to Redux (old)](redux/introduction-to-redux-old/)
+- - [Introduction to Redux (outdated)](redux/introduction-to-redux/)
 - Testing
 - - [React TDD](react-tdd/README.md)
 - React Router

@@ -1,4 +1,4 @@
-## Introduction to React library (old)
+## Introduction to React library (outdated)
 
 > note from last year
 
