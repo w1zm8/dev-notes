@@ -32,7 +32,7 @@ export const tryToSleep = maxCount => {
 
 ```
 
-We have to test that function **tryToSleep** called function **getLastSheep** a certain numbers of times and with specific arguments
+We have to test what a function **tryToSleep** called function **getLastSheep** a certain numbers of times and with specific arguments
 
 ## jest.fn()
 
