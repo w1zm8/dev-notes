@@ -10,13 +10,13 @@ Install Jest as dev dependency:
 npm i --save-dev jest
 ```
 
-> for correct work of autocomplete in VSCode you should install types for Jest even if you work with no TypeScript project
+> for correct work of autocomplete in VSCode you should install types for Jest even if you work with project w/o TypeScript
 
 ```
 npm i --save-dev @types/jest
 ```
 
-If you are using **babel** in your project, you should pay attention with a configuration of babel, especially option for [Tree Shaking](https://webpack.js.org/guides/tree-shaking/) which disables imports in a code:
+If you are using **babel** in your project, you should pay attention with a configuration of Babel, especially with option for [Tree Shaking](https://webpack.js.org/guides/tree-shaking/) which disables imports in a code:
 
 ```js
 // ...
@@ -24,7 +24,7 @@ If you are using **babel** in your project, you should pay attention with a conf
 // ...
 ```
 
-When imports are disabled in a code, Jest can't parse them in tests - so you can catch errors like:
+When imports are disabled in a code, Jest can't parse them in tests - so you can get errors like:
 
 ```
     SyntaxError: Cannot use import statement outside a module
@@ -47,7 +47,7 @@ module.exports = {
 
 > Full example of configuration you can see in the project [Lotto Game](https://github.com/kowalevski/lotto-game)
 
-If you are using webpack in your project, you can use absolute paths in your project. In webpack's configuration file it will be something like that:
+If you are using webpack in your project so you can use absolute paths. In webpack's configuration file it will be something like that:
 
 ```js
 //...
@@ -57,19 +57,19 @@ module.exports = {
 // ...
 ```
 
-It means that you can write absolute paths like:
+It means that you can write absolute paths
 
 ```js
 import Gamefield from "Gamefield";
 ```
 
-Instead of
+instead of
 
 ```js
 import Gamefield from "../../../components/Gamefield";
 ```
 
-But by default Jest doesn't know about this absolute paths. So, if you use absolute paths in your Jest's tests you will get error:
+But by default Jest doesn't know about this absolute paths. So, if you are using absolute paths in your Jest tests you will get error:
 
 ```
 Cannot find module 'Gamefield' from 'Gamefield.test.jsx'
